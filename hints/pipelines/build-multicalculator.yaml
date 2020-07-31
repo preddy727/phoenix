@@ -46,7 +46,7 @@ stages:
     displayName: run dev1
     environment: dev1
     variables:
-      AZURE_KEYVAULT_NAME: 'dzphoenix-180-vault'
+      AZURE_KEYVAULT_NAME: 'prreddy-415-vault'
     strategy:
      runOnce:
          deploy:
@@ -97,7 +97,7 @@ stages:
     displayName: run prod1
     environment: prod1
     variables:
-      AZURE_KEYVAULT_NAME: 'dzphoenix-760-vault'
+      AZURE_KEYVAULT_NAME: 'prreddy-415-vault'
     strategy:
      runOnce:
          deploy:
